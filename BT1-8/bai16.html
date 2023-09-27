@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table
+        {
+            border: 2px solid ; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;">
+        <form action="container-form" style="font-size: 20px;">
+            <h1 style="font-size: 30px; text-align: center;">
+                Bài 16
+            </h1>
+            <table>
+                <tr>
+                    <td >
+                        <label for="ten">Tên của bạn:</label>
+                    </td>
+                    <td><input type="text" name="" id="ten"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email ">Email của bạn:</label>
+                    </td>
+                    <td><input type="email" name="" id="email"></td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="noidung">Nội dung</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="noidung" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="guiden">Gửi đến</label></td>
+                    <td>
+                        <select name="" id="guiden">
+                            <option value="kehoach">Kế hoạch</option>
+                            <option value="taichinh">Tài chính</option>
+                            <option value="nhansu">Nhân sự</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Gửi Feedback</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

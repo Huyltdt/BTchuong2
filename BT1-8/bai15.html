@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+        
+        #hoten
+        {
+            width: 350px;
+            height: 20px;
+        }
+        #diachi
+        {
+            width: 98%;
+            height: 20px;
+        }
+        #dienthoai
+        {
+            width: 200px;
+            height: 20px;
+        }
+        #nghenghiep
+        {
+            width: 100px;
+            height: 20px;
+        }
+
+        h1,
+        input[type="radio"] + label,
+        table tr td:first-child {
+        color: rgb(59, 187, 0);
+        }
+        tr 
+        {
+        background: #a1e6eb;
+        }
+
+        button:hover {
+            color: black;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;">
+        <form action="container-form" style="font-size: 20px;">
+            <h1 style="font-size: 30px;">
+                PHIẾU ĐĂNG KÝ THAM GIA CHƯƠNG TRÌNH KHUYẾN MÃI
+            </h1>
+            <table border="1" cellspacing="0" width="870" cellpadding="5">
+                <tr>
+                    <td width="250"><label for="hoten">Họ Và Tên</label></td>
+                    <td>
+                        <input type="text" name="" id="hoten" placeholder="Nhập Họ Tên">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="diachi">Địa chỉ</label></td>
+                    <td><input  type="text" name="" id="diachi" placeholder="Nhập địa chỉ"></td>
+                </tr>
+                <tr>
+                    <td><label for="dienthoai">Điện thoại</label></td>
+                    <td><input type="text" name="" id="dienthoai" placeholder="Số điện thoại"></td>
+                </tr>
+                <tr>
+                    <td><label for="nam">Phái</label></td>
+                    
+                    <td>
+                        <input type="radio" name="phai" id="nam">
+                        <label for="nam">Nam</label>
+                        <input type="radio" name="phai" id="nu">
+                        <label for="nu">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="nghenghiep">Nghề nghiệp</label></td>
+                    <td>
+                        <select name="nghenghiep" id="nghenghiep">
+                            <option value="Bác sĩ">Bác sĩ</option>
+                            <option value="Kỹ sư">Kỹ sư</option>
+                            <option value="Giáo viên">Giáo viên</option>
+                            <option value="Khác">Khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="songuoi">Số người tham gia</label></td>
+                    <td><input type="text" name="" id="songuoi"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Đồng Ý</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
